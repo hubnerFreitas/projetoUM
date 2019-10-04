@@ -1,0 +1,23 @@
+label#imagem {
+    margin-bottom: 20px;
+    border: 1px dashed #DDD;
+    background-size: cover;
+    cursor: pointer;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label#imagem input{
+    display: none;
+}
+
+label#imagem.temImagem {
+    border: 0;
+}
+
+label#imagem.temImagem img {
+    display: none;
+}
+
